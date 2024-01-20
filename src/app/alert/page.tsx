@@ -42,7 +42,7 @@ function Page() {
                 onClick={() => handleToggle()}
             />
             <h1
-                className={` text-4xl font-sans  mb-4 
+                className={` text-2xl md:text-4xl font-sans  mb-4 
             ${theme ? "text-white" : "text-black"}
             `}
             >
