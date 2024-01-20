@@ -15,7 +15,7 @@ import { Switch } from "@/components/ui/switch";
 import { log } from "console";
 import { useState } from "react";
 
-function page() {
+function Page() {
     const [theme, setTheme] = useState(false);
     const handleToggle = () => {
         setTheme((prev) => !prev);
@@ -82,4 +82,4 @@ function page() {
     );
 }
 
-export default page;
+export default Page;
